@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/proframe/static/css/main.8468171e.css",
+    "main.js": "/proframe/static/js/main.82ad9f79.js",
+    "static/media/event.jpg": "/proframe/static/media/event.aab507f2516be28c04b0.jpg",
+    "static/media/fa-solid-900.ttf": "/proframe/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/proframe/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/proframe/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/coverage.jpg": "/proframe/static/media/coverage.2ef038b0414b100b85d1.jpg",
+    "static/media/fa-brands-400.woff2": "/proframe/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/ex.jpg": "/proframe/static/media/ex.061178280d1f178bc51e.jpg",
+    "static/media/workshop.jpg": "/proframe/static/media/workshop.570af43b6fd8cf6cf142.jpg",
+    "static/media/card.jpg": "/proframe/static/media/card.6fd2c77de01341e565fa.jpg",
+    "static/media/fa-regular-400.ttf": "/proframe/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/logo.JPG": "/proframe/static/media/logo.acc2d56a63c9bc4181f9.JPG",
+    "static/media/film.jpg": "/proframe/static/media/film.c70e2f5cc40784948313.jpg",
+    "static/media/logo.png": "/proframe/static/media/logo.e79fc8d031ed1e47bdc2.png",
+    "static/media/fa-regular-400.woff2": "/proframe/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/image.png": "/proframe/static/media/image.9c15ac45d47b62ea5559.png",
+    "static/media/fa-v4compatibility.ttf": "/proframe/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/proframe/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/proframe/index.html",
+    "main.8468171e.css.map": "/proframe/static/css/main.8468171e.css.map",
+    "main.82ad9f79.js.map": "/proframe/static/js/main.82ad9f79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8468171e.css",
+    "static/js/main.82ad9f79.js"
+  ]
+}
