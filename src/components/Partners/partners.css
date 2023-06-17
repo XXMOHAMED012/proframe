@@ -1,0 +1,15 @@
+.partners {
+  padding: var(--padding) 0;
+}
+
+.partners .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.partners .container img {
+  width: 70px;
+}

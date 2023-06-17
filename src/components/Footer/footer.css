@@ -1,0 +1,182 @@
+.footer {
+  padding: var(--padding) 0 0;
+  background-color: var(--color2);
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 55%;
+  height: 25px;
+  background-color: var(--color1);
+  border-radius: 0 20px 20px 0;
+}
+
+.footer::after {
+  content: "";
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 35%;
+  height: 25px;
+  background-color: var(--color1);
+  border-radius: 0 20px 20px 0;
+}
+
+.footer .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  z-index: 3;
+}
+
+.footer .container img {
+  max-width: 180px;
+  border-radius: 10px;
+}
+
+.footer .container .text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.footer .container .text .top h2 {
+  font-size: 50px;
+  margin: 15px 0;
+  color: var(--color1);
+}
+
+.footer .container .text .top p {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.7;
+}
+
+.footer .container .text .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+
+.footer .container .text .links li a {
+  display: block;
+  width: fit-content;
+  padding: 6px 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  border-radius: 20px;
+}
+
+.footer .container .text .links li a:hover {
+  background-color: var(--color1);
+}
+
+.footer .container .text .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  border-top: 1px solid #999;
+}
+
+.footer .container .text .bottom h4 {
+  color: #ccc;
+  font-weight: 300;
+}
+
+.footer .container .text .numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer .container .text .numbers a {
+  display: block;
+  width: fit-content;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.footer .container .text .numbers a:hover {
+  color: var(--color1);
+}
+
+.footer .container .text .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+  z-index: 2;
+}
+
+.footer .container .text .social a i {
+  font-size: 28px;
+  color: #ccc;
+}
+
+.footer .container .text .social .insta:hover i {
+  color: #c13584;
+}
+
+.footer .container .text .social .snap:hover i {
+  color: #fffc00;
+}
+
+.footer .container .text .social .whatsapp:hover i {
+  color: #25d366;
+}
+.footer .container .text .social .twitter:hover i {
+  color: #1da1f2;
+}
+.footer .container .text .social .phone:hover i {
+  color: #25d366;
+}
+.footer .container .text .social .location:hover i {
+  color: #ea4335;
+}
+
+@media (max-width: 991px) {
+  .footer .container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 769px) {
+  .footer .container {
+    flex-direction: column;
+  }
+  .footer .container .text {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .container .text .top h2 {
+    font-size: 40px;
+  }
+  .footer .container .text .top p {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .footer .container .text .links {
+    flex-wrap: wrap;
+  }
+  .footer .container .text .bottom {
+    padding: 5px;
+  }
+  .footer .container .text .social a i {
+    font-size: 25px;
+  }
+}

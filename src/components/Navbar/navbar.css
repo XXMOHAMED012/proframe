@@ -1,0 +1,91 @@
+.nav {
+  width: 100%;
+}
+
+.nav .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .container .logo {
+  height: 90px;
+}
+
+.nav .container img {
+  height: 90px;
+}
+
+.nav .container .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  z-index: 100;
+}
+
+.nav .container .links li a {
+  display: block;
+  width: fit-content;
+  padding: 7px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--color2);
+  border-radius: 20px;
+}
+
+.nav .container .links li a:hover,
+.nav .container .links li.active a {
+  color: white;
+  background-color: var(--color1);
+}
+
+@media (max-width: 991px) {
+  .nav .container .logo,
+  .nav .container img {
+    height: 70px;
+  }
+  .nav .container .lines {
+    display: block;
+    cursor: pointer;
+  }
+  .nav .container .lines .line {
+    width: 35px;
+    height: 4px;
+    background-color: var(--color2);
+    margin: 6px 0;
+    border-radius: 3px;
+  }
+  .nav .container .links {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+    width: fit-content;
+    height: 0;
+    top: 100%;
+    left: 0;
+    background-color: var(--sbackground);
+    overflow: hidden;
+  }
+  .nav .container .links.active {
+    background-color: var(--sbackground);
+    height: 350px;
+  }
+  .nav .container .links > li > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 250px;
+    height: 50px;
+    border-radius: 0;
+  }
+  .nav .container .links li a:hover {
+    color: white;
+    background-color: var(--color2);
+  }
+}

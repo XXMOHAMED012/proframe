@@ -1,0 +1,35 @@
+.types {
+  background-color: var(--sbackground);
+}
+
+.types .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.types .container .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.types .container .box:hover {
+  background-color: #eee;
+}
+
+.types .container .box img {
+  width: 90px;
+}
+
+.types .container .box h3 {
+  color: var(--color2);
+}
+
+.types .container .box:hover h3 {
+  color: var(--color1);
+}

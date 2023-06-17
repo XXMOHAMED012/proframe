@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 20px #00000015;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 30px #00000035;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 15px 5px;
+}
+
+.card .text h3 {
+  color: var(--color2);
+  text-align: center;
+}
+
+.card .text p {
+  width: 100%;
+  padding-top: 5px;
+  font-size: 14px;
+  color: var(--color2);
+  text-align: center;
+  border-top: 1px solid #ddd;
+}

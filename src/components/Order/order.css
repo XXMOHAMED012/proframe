@@ -1,0 +1,125 @@
+/* Start order */
+
+.order {
+  padding: var(--padding) 0;
+}
+
+.order .form .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order .form .container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+  padding: 40px 30px 20px;
+  border-radius: 20px;
+  background-color: var(--color2);
+}
+
+.order .form .container form .line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.order .form .container form .line h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.order .form .container form .line input {
+  width: 100%;
+  padding: 6px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #666;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+
+.order .form .container form .line input::placeholder {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.order .form .container form .line textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #666;
+  border: none;
+  outline: none;
+}
+
+.order .form .container form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 3px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color1);
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.order .form .container form button[type="submit"]:hover {
+  background-color: var(--color2);
+  color: white;
+}
+
+.order .form .container form .line .categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 12px;
+  background-color: white;
+  border: 2px solid var(--main-color);
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+
+.order .form .container form .line .categories option {
+  font-size: 17px;
+  font-weight: 500;
+  color: #777;
+}
+
+@media (max-width: 767px) {
+  .order .form .container form {
+    padding: 10px 10px 15px;
+  }
+  .order .form .container form .line {
+    gap: 7px;
+  }
+  .order .form .container form .line input {
+    font-size: 17px;
+  }
+  .order .form .container form .line h3 {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .order .form .container form button[type="submit"] {
+    padding: 2px 0;
+  }
+}
+/* End order */
